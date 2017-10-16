@@ -14,6 +14,7 @@
 		04E852FE1F92137E00016E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E852FC1F92137E00016E13 /* LaunchScreen.storyboard */; };
 		04E853091F92137F00016E13 /* StaytunediOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E853081F92137F00016E13 /* StaytunediOSTests.swift */; };
 		04E853141F92137F00016E13 /* StaytunediOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E853131F92137F00016E13 /* StaytunediOSUITests.swift */; };
+		04E853231F94A76B00016E13 /* DesignerOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E853221F94A76B00016E13 /* DesignerOverviewViewController.swift */; };
 		28294E4A8E2CEF693FE9807F /* Pods_StaytunediOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21BECADC85E11C87FEAFD78 /* Pods_StaytunediOSUITests.framework */; };
 		3ED9E5B2EA528D588B71ACFD /* Pods_StaytunediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48BBA4D6838A4F5268B2817 /* Pods_StaytunediOS.framework */; };
 		FCA8FB8132A2837719C5185A /* Pods_StaytunediOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D540E8917D8DD0A58F8B9997 /* Pods_StaytunediOSTests.framework */; };
@@ -50,6 +51,7 @@
 		04E8530F1F92137F00016E13 /* StaytunediOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaytunediOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E853131F92137F00016E13 /* StaytunediOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaytunediOSUITests.swift; sourceTree = "<group>"; };
 		04E853151F92137F00016E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E853221F94A76B00016E13 /* DesignerOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerOverviewViewController.swift; sourceTree = "<group>"; };
 		0D027CD34554E76AE7465BF1 /* Pods-StaytunediOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaytunediOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaytunediOS/Pods-StaytunediOS.release.xcconfig"; sourceTree = "<group>"; };
 		233199BC385C6CA1FC7F76E0 /* Pods-StaytunediOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaytunediOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaytunediOSUITests/Pods-StaytunediOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		91CA25F34BA40EE51F180658 /* Pods-StaytunediOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaytunediOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaytunediOSTests/Pods-StaytunediOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		04E852EF1F92137E00016E13 /* StaytunediOS */ = {
 			isa = PBXGroup;
 			children = (
+				04E853211F94A74400016E13 /* DesignerOverview */,
 				04E852F01F92137E00016E13 /* AppDelegate.swift */,
 				04E852F21F92137E00016E13 /* ViewController.swift */,
 				04E852FA1F92137E00016E13 /* Assets.xcassets */,
@@ -140,6 +143,14 @@
 				04E853151F92137F00016E13 /* Info.plist */,
 			);
 			path = StaytunediOSUITests;
+			sourceTree = "<group>";
+		};
+		04E853211F94A74400016E13 /* DesignerOverview */ = {
+			isa = PBXGroup;
+			children = (
+				04E853221F94A76B00016E13 /* DesignerOverviewViewController.swift */,
+			);
+			path = DesignerOverview;
 			sourceTree = "<group>";
 		};
 		A79CBB622926FED318FC49CA /* Frameworks */ = {
@@ -459,6 +470,7 @@
 			files = (
 				04E852F31F92137E00016E13 /* ViewController.swift in Sources */,
 				04E852F11F92137E00016E13 /* AppDelegate.swift in Sources */,
+				04E853231F94A76B00016E13 /* DesignerOverviewViewController.swift in Sources */,
 				04E852F91F92137E00016E13 /* StaytunediOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
