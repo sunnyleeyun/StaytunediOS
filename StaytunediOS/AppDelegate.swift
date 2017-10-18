@@ -17,10 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     window = UIWindow(frame: UIScreen.main.bounds)
-    let homeViewController = UIViewController()
-    homeViewController.view.backgroundColor = UIColor.red
-    window!.rootViewController = homeViewController
+    let navDesign = UINavigationController()
+    navDesign.viewControllers = [DesignerOverviewViewController()]
+    
+    window!.rootViewController = navDesign
     window!.makeKeyAndVisible()
+    
     return true
   }
 
