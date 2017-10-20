@@ -35,13 +35,16 @@ public class DesignerOverviewViewController: UIViewController {
   public override func viewDidLoad() {
     super.viewDidLoad()
     view.backgroundColor = .init(hexString: "EBEBF1")
-
+    
     configureUI()
+
   }
   
   public override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
   }
+  
+  
   
   private func configureUI(){
     configureMain()
@@ -54,7 +57,7 @@ public class DesignerOverviewViewController: UIViewController {
     self.viewBackgroud.snp.makeConstraints { (make) in
       make.left.equalTo(20)
       make.right.equalTo(-20)
-      make.top.equalTo(self.view).offset(40)
+      make.top.equalTo(self.view.safeAreaLayoutGuide).offset(20)
       make.height.equalTo(120)
     }
     
