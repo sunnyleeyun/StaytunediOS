@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0485CA8C1F9A0C6B00846C06 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0485CA8B1F9A0C6B00846C06 /* LogInViewController.swift */; };
 		04E852F11F92137E00016E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E852F01F92137E00016E13 /* AppDelegate.swift */; };
 		04E852F31F92137E00016E13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E852F21F92137E00016E13 /* ViewController.swift */; };
 		04E852F91F92137E00016E13 /* StaytunediOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E852F71F92137E00016E13 /* StaytunediOS.xcdatamodeld */; };
@@ -57,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0485CA8B1F9A0C6B00846C06 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		04E852ED1F92137E00016E13 /* StaytunediOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaytunediOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E852F01F92137E00016E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E852F21F92137E00016E13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0485CA8A1F9A0C3200846C06 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				0485CA8B1F9A0C6B00846C06 /* LogInViewController.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
 		04E852E41F92137E00016E13 = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +164,7 @@
 		04E852EF1F92137E00016E13 /* StaytunediOS */ = {
 			isa = PBXGroup;
 			children = (
+				0485CA8A1F9A0C3200846C06 /* LogIn */,
 				04E853241F94B51B00016E13 /* Extensions */,
 				04E853211F94A74400016E13 /* DesignerOverview */,
 				04E852F01F92137E00016E13 /* AppDelegate.swift */,
@@ -553,6 +564,7 @@
 				04E8533A1F94B51B00016E13 /* DataExtension.swift in Sources */,
 				04E852F91F92137E00016E13 /* StaytunediOS.xcdatamodeld in Sources */,
 				04E8534A1F94B51B00016E13 /* UIViewExtension.swift in Sources */,
+				0485CA8C1F9A0C6B00846C06 /* LogInViewController.swift in Sources */,
 				04E853391F94B51B00016E13 /* CollectionExtension.swift in Sources */,
 				04E853491F94B51B00016E13 /* UIViewControllerExtension.swift in Sources */,
 				04E853421F94B51B00016E13 /* UIAlertControllerExtension.swift in Sources */,
